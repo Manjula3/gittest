@@ -12,3 +12,8 @@
 
 Creating branch :
 10.git checkout -b testcheck - to create a branch and switch to it
+
+Merge command :
+source_branch="Manjula3-patch-1"
+target_branch="main"
+git pull -q&&git checkout -q ${source_branch}&&git pull -q&&git checkout -q ${target_branch}&&git pull -q&&git merge --no-edit --no-ff ${source_branch}
