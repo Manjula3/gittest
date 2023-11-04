@@ -11,7 +11,12 @@
 
 
 Creating branch :
-10.git checkout -b testcheck - to create a branch and switch to it
+10.git checkout -b testcheck // git switch -c TestCheck2- to create a branch and switch to it
+
+
+checking branch related info :
+git branch -r -> gives the details of the branch in the repo
+git remote -v -> details of the remote repo
 
 Merge command :
 source_branch="Manjula3-patch-1"
