@@ -1,0 +1,10 @@
+1. git restore <filename> - discarding uncommitted local changes
+2. git restore -p <filename> - dicards uncommitted changes at patch level
+3. git restore . -> discarding all uncommitted changes
+4. git revert <commit id> - undos the commit
+5. git reset --hard <commit id>
+6. git reset --mixed <commit id> -> resets to old version but keeps the local changes 
+7. git restore --source <commit id><file name> -restores that particular file to old version 
+8. git reflog -> gives us the commit and HEAD Position ,  we can take the step where we need to restore and do git restore or reset.
+9. git branch <branchname><commitid> -> creates the branch from that point (can be used to retrieve deleted branch)
+10.
