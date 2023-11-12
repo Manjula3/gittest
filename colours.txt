@@ -1,3 +1,4 @@
-red 
+violet 
 Yellow
-Green
+blue
+pista green
